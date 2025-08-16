@@ -51,16 +51,29 @@ body {
   padding: 100px 20px;
   text-align: center;
 }
+/* ===== HERO ===== */
 .hero {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: linear-gradient(135deg, #6200ea, #b5179e);
   color: white;
+  text-align: center;
 }
+
 .hero span {
-  color: #ffd166;
+  color: #ffd166; /* color del nombre en modo claro */
+}
+
+/* ===== MODO OSCURO ===== */
+body.dark .hero {
+  background: #000000; /* fondo negro en modo oscuro */
+}
+
+body.dark .hero span {
+  color: #ff0000; /* nombre en rojo en modo oscuro */
 }
 
 /* ===== Cards de los proyectos ===== */
