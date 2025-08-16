@@ -1,2 +1,2 @@
 # Prueba-1
-Este repositorio está asociado directamente con el estudiante Jhon Alonso López Zúñiga y su entrega de la prueba 1 referente a la fecha de 16/8/2025 del cruso de programación III
+Este repositorio está asociado directamente con el estudiante Jhon Alonso López Zúñiga y su entrega de la prueba 1 referente a la fecha de 16/8/2025 del cruso de programación III, en dicho codigó traté de incluir funciones vistosas no muy complejas debido a que no soy experto en dicha area, las cards de los proyectos tienen una animación cuando se le pasa el mause por encima, a su vez se puede cambiar de modo claro a modo obscuro y vicebersa, además que le agregué la funcionalidad que ofrece EmailJS utilizando las claves que brinda los servicios, el usuario y el template
