@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Jhon</title>
+  <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="logo">JhonyxDarkWeb</div>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <button id="darkModeToggle">Obscuro</button>
+  </nav>
+
+  <!-- ===== INICIO ===== -->
+  <section id="inicio" class="section hero">
+    <h1>Hola, soy <span>Jhon Alonso</span></h1>
+    <p>Desarrollador Web | Apasionado por la tecnología</p>
+  </section>
+
+
+
+
+
+
+<!-- ===== SOBRE MÍ ===== -->
+<section id="sobre-mi" class="section sobre-mi">
+  <div class="sobre-mi-container">
+    <img src="img/anonymous-2768825_640.jpg" alt="Mi foto" class="foto-perfil">
+    <div class="descripcion">
+      <h2>Sobre mí</h2>
+      <p>
+        Hola, soy Jhon Alonso, aspirante a desarrollador web y programador con pasión por la tecnología y la creación de soluciones digitales elegantes y funcionales. Me especializo en HTML, CSS, JavaScript y frameworks modernos. Me encanta aprender y enfrentar nuevos retos para crecer profesionalmente.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== PROYECTOS ===== -->
+  <section id="proyectos" class="section">
+    <h2>Mis Proyectos</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Proyecto 1</h3>
+        <p>Api de Ecomerce que permite ejecutar un CRUD.</p>
+      </div>
+      <div class="card">
+        <h3>Proyecto 2</h3>
+        <p>Virtualización de dispositivos y convertir una portatil en un servidor.</p>
+      </div>
+      <div class="card">
+        <h3>Proyecto 3</h3>
+        <p>Desarrollo de un software que permitía administrar una clínica.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section id="contacto" class="section contacto">
+    <h2>Contacto</h2>
+    <form id="contactForm" class="formulario">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+  </section>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script src="Funcionalidad.js"></script>
+</body>
+</html>
