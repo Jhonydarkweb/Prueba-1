@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== Navbar ===== */
+/*Navbar*/
 .navbar {
   position: fixed;
   top: 0;
@@ -46,12 +46,12 @@ body {
   cursor: pointer;
 }
 
-/* ===== Secciones ===== */
+/* Secciones*/
 .section {
   padding: 100px 20px;
   text-align: center;
 }
-/* ===== HERO ===== */
+/*HERO*/
 .hero {
   height: 100vh;
   display: flex;
@@ -76,7 +76,7 @@ body.dark .hero span {
   color: #ff0000; /* nombre en rojo en modo oscuro */
 }
 
-/* ===== Cards de los proyectos ===== */
+/*Cards de los proyectos*/
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -93,7 +93,7 @@ body.dark .hero span {
   transform: translateY(-5px);
 }
 
-/* ===== Formulario ===== */
+/*Formulario*/
 .formulario {
   display: flex;
   flex-direction: column;
@@ -120,7 +120,7 @@ body.dark .hero span {
   background: #37afaf;
 }
 
-/* ===== Modo obscuro ===== */
+/*Modo obscuro*/
 body.dark {
   background: #121212;
   color: #f1f1f1;
@@ -140,4 +140,38 @@ body.dark .formulario textarea {
 body.dark .formulario button {
   background: #bb86fc;
   color: #121212;
+}
+
+
+.sobre-mi-container .foto-perfil {
+  width: 150px;      
+  height: auto;      
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
+}
+
+/* Estilos para las imágenes de las cards */
+.card-image-container {
+  width: 100%;
+  height: 180px; /* Altura fija para todas las imágenes */
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 15px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-image {
+  transform: scale(1.05); 
+}
+
+
+.card {
+  overflow: hidden; 
 }
