@@ -1,9 +1,9 @@
-// ===== Inicializar EmailJS =====
+// Inicializar EmailJS 
 (function(){
   emailjs.init("ugiMEIIn0rVOjakx5"); // tu Public Key
 })();
 
-// ===== Enviar Formulario =====
+//Enviar Formulario 
 const form = document.getElementById("contactForm");
 form.addEventListener("submit", function(e) {
   e.preventDefault();
@@ -18,7 +18,7 @@ form.addEventListener("submit", function(e) {
     });
 });
 
-// ===== Modo Oscuro =====
+//Modo Oscuro
 const toggleBtn = document.getElementById("darkModeToggle");
 
 toggleBtn.addEventListener("click", () => {
